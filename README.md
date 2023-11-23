@@ -33,7 +33,7 @@ const getEpisodeNumber = (id) => {
   const romanNumbers = ["I", "II", "III", "IV", "V", "VI"];
   return `Episode ${romanNumbers[id - 1]}`;
 };
-
+```
 
 In this example, the arrow function getEpisodeNumber captures the romanNumbers array from its surrounding scope, illustrating the concept of a closure
 
