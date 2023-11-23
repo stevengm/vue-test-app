@@ -28,6 +28,8 @@ const getEpisodeNumber = (id) => {
   const romanNumbers = ["I", "II", "III", "IV", "V", "VI"];
   return `Episode ${romanNumbers[id - 1]}`;
 };
+
+
 </script>
 <template>
   <div class="bg-gray-100" v-if="film.title">
